@@ -1,6 +1,7 @@
 # generate-your-solwallet
 
-To use this program, you can generate solwallet you prefer(First 3 letters only).
+By using this program, you can generate solwallet you prefer.
+Note that you can specify only first 3 letters.
 
 ## Build & Run
 ```
