@@ -14,7 +14,7 @@ fn main() {
         let keypair = GenKeys::new(seed).gen_keypair();
         let keypair_bytes = keypair.to_bytes();
 
-        let pubkey = Pubkey::new(&keypair_bytes[0..32]);
+        let pubkey = Pubkey::new(&keypair_bytes[32..64]);
         if &pubkey.to_string()[0..3] == "PSG" {
             println!("{:?}", pubkey.to_string());
             println!("{:?}", keypair.to_base58_string());
